@@ -52,20 +52,32 @@
 
   .carousel 
   {
-    width: 80%;
-    margin-top: 5%;
+    width: 100%;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    align-items: center;
   }
 
   .slide 
   {
     width: 100%;
     display: none;
+    margin-top: 2.5%;
   }
 
   .slide img 
+  {
+    width: 100%;
+  }
+
+  .slide2
+  {
+    width: 100%;
+    display: none;
+    margin-top: 10%;
+  }
+
+  .slide2 img 
   {
     width: 100%;
   }
