@@ -38,171 +38,60 @@
       <h2>
         MES PROJETS
       </h2>
-        <div class="carousel">
-          <div class="slide">
-            <div class="card">
-              <h2>Pycarus</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/python_icon.png" alt="Icon 1"></div>
-                <div class="icon"><img src="img/icon/pygame_icon.png" alt="Icon 2"></div>
-              </div>
-              <div class="image-zone">
-                <img src="img/gameplay/pycarus1.png" alt="Image 1">
-                <img src="img/gameplay/pycarus2.png" alt="Image 2">
-                <img src="img/gameplay/pycarus3.png" alt="Image 3">
-              </div>
-              <p>
-                "Pycarus" est un projet de fin de première année d'une durée de deux semaines, réalisé en collaboration avec la promotion des étudiants en deuxième année de Business. Notre objectif était de créer un jeu de type "shoot'em up" inspiré de l'histoire d'Icare, mais dans un contexte futuriste. 
-                Le jeu propose un mode histoire où le joueur doit atteindre le soleil en affrontant des hordes d'ennemis et des boss, ainsi qu'un mode infini où la difficulté augmente à chaque victoire sur un boss.  
-              </p>
-              <div class="icon-footer">
-                <div class="iconF"> <a href="https://p0izon.itch.io/pycarus"><img src="img/icon/itch-io_icon.png" alt="Icon footer 1"></a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="slide">
-            <div class="card">
-              <h2>One Piece - Jeu Textuel Console</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/icon_cpp.png" alt="Icon 1"></div>
-              </div>
-              <div class="image-zone">
-                <img src="image1.jpg" alt="Image 1">
-                <img src="image2.jpg" alt="Image 2">
-              </div>
-              <p>Ce projet, réalisé en une semaine et utilisant le langage C++, représente notre première incursion dans ce langage. 
-                Notre objectif était de créer un jeu textuel basé sur un système de tour par tour. Il a été conçu pour servir de transition entre l'apprentissage du C et celui du C++.
-              </p>
-              <div class="icon-footer">
-                <div class="iconF"> <a href="https://github.com/GamingCampus-AdrienBourgois/week-1-fight-turned-based-game-one-piece"><img src="img/icon/github_icon.png" alt="Icon footer 1"></a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="slide">
-            <div class="card">
-              <h2>Creation de librairie C++</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/icon_cpp.png" alt="Icon 1"></div>
-              </div>
-              <div class="image-zone">
-                <img src="image1.jpg" alt="Image 1">
-              </div>
-              <p>
-                Ce projet, réalisé en une semaine et utilisant le langage C++, représentait un véritable défi. 
-                Nous avions pour tâche de créer nos propres bibliothèques, telles que Vector Container, Collision, Vector2, ainsi qu'un début de GameObject. De plus, nous devions mettre en place des tests unitaires pour évaluer nos bibliothèques.
-              </p>
-              <div class="icon-footer">
-                <div class="iconF"> <a href="https://github.com/GamingCampus-AdrienBourgois/week-2-gameobject-architecture-las-matematicas"><img src="img/icon/github_icon.png" alt="Icon footer 1"></a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="slide">
-            <div class="card">
-              <h2>Tower defence</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/icon_cpp.png" alt="Icon 1"></div>
-              </div>
-              <div class="image-zone">
-                <img src="image1.jpg" alt="Image 1">
-              </div>
-              <p>
-                
-                Ce projet, réalisé en une semaine, était un exercice d'application des principes de l'UML sur différents designs pattern. 
-                Notre objectif était de créer un jeu de type tower defense, avec la possibilité de choisir un thème. Nous avons opté pour l'univers de League of Legends pour notre projet.  
-              </p>
-              <div class="icon-footer">
-                <div class="iconF"> <a href="https://github.com/GamingCampus-AdrienBourgois/week-3-sfml-game-les-x-loutres-hawaiennes"><img src="img/icon/github_icon.png" alt="Icon footer 1"></a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="bullets"></div>
+      <section id="portfolio">
+        <div class="filter-select">
+          <label for="category-filter">Filtrer par catégorie:</label>
+          <select id="category-filter">
+            <option value="all">Tous</option>
+            <option value="cpp">C++</option>
+            <option value="python">Python</option>
+            <option value="csharp">C#</option>
+            <option value="mobile">Mobile</option>
+          </select>
         </div>
-        <div class="carousel">
-          <div class="slide2">
-            <div class="card">
-              <h2>Helluva Revenge</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/icon_cpp.png" alt="Icon 1"></div>
-                <div class="icon"><img src="img/icon/sfml_icon.png" alt="Icon 1"></div>
-              </div>
-              <div class="image-zone">
-                <img src="img/gameplay/pycarus1.png" alt="Image 1">
-                <img src="img/gameplay/pycarus2.png" alt="Image 2">
-                <img src="img/gameplay/pycarus3.png" alt="Image 3">
-              </div>
-              <p>
-                  
-                Ce projet a duré 4 semaines et impliquait la réalisation d'une "vertical slice". Durant cette période, nous étions responsables de toutes les étapes, de la conception initiale à la création d'actifs, 
-                y compris la réalisation de mood boards pour guider notre recherche et création d'assets.
-              </p>
-              <div class="icon-footer">
-                <div class="iconF"> <a href="https://github.com/DemonXlegenD/Helluva-Revenge"><img src="img/icon/github_icon.png" alt="Icon footer 1"></a> </div>
-              </div>
+
+        <div class="category" data-category="cpp">
+          <h2>C++</h2>
+          <section id="projects-cpp" class="projects">
+            <div class="project-card" data-url="projet">
+              <h3>Projet C++ 1</h3>
             </div>
-          </div>
-          <div class="slide2">
-            <div class="card">
-              <h2>One Piece - Jeu Textuel Console</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/csharp_icon.png" alt="Icon 1"></div>
-              </div>
-              <div class="image-zone">
-                <img src="image1.jpg" alt="Image 1">
-                <img src="image2.jpg" alt="Image 2">
-              </div>
-              <p>Ce projet, réalisé en une semaine et utilisant le langage C#, représente notre première incursion dans ce langage. 
-                Notre objectif était de créer un jeu textuel basé sur un système de tour par tour. Il a été conçu pour servir de transition entre l'apprentissage du C++ et celui du C#.
-              </p>
-              <div class="icon-footer">
-                <div class="iconF">
-                  <a href="https://github.com/GamingCampus-AdrienBourgois/week-1-fight-turned-based-game-one-piece">
-                    <img src="img/icon/github_icon.png" alt="Icon footer 1">
-                  </a> 
-                </div>
-              </div>
+            <div class="project-card" data-url="projet">
+              <h3>Projet C++ 2</h3>
             </div>
-          </div>
-          <div class="slide2">
-            <div class="card">
-              <h2>Unity</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/csharp_icon.png" alt="Icon 1"></div>
-                <div class="icon"><img src="img/icon/unity_icon.png" alt="Icon 1"></div>
-              </div>
-              <div class="image-zone">
-                <img src="image1.jpg" alt="Image 1">
-              </div>
-              <p>
-                Ce projet, d'une durée de 2 semaines, a marqué notre première incursion dans le moteur Unity. Nous avons été chargés de développer un jeu similaire à Rocket League, 
-                avec des mécanismes de gestion de la stamina, la création d'une balle rebondissante, l'implémentation d'un système de pathfinding pour un bot doté d'attaques aléatoires, ainsi que la gestion procédurale des obstacles.
-              </p>
-              <div class="icon-footer">
-                <div class="iconF"> <a href="https://github.com/GamingCampus-AdrienBourgois/week-2-gameobject-architecture-las-matematicas"><img src="img/icon/github_icon.png" alt="Icon footer 1"></a> </div>
-              </div>
+            <div class="project-card" data-url="projet">
+              <h3>Projet C++ 3</h3>
             </div>
-          </div>
-          <div class="slide2">
-            <div class="card">
-              <h2>Game Jam</h2>
-              <div class="icon-zone">
-                <div class="icon"><img src="img/icon/csharp_icon.png" alt="Icon 1"></div>
-                <div class="icon"><img src="img/icon/unity_icon.png" alt="Icon 1"></div>
-              </div>
-              <div class="image-zone">
-                <img src="image1.jpg" alt="Image 1">
-              </div>
-              <p>
-                Cette game jam a été organisée par le campus, avec pour thème artistique le chocolat et pour thème technique le contraste dynamique. 
-                Notre création a été un jeu de survie en vue à la troisième personne, où les joueurs doivent alterner entre le chocolat blanc et noir pour éliminer les ennemis.  
-              </p>
-              <div class="icon-footer">
-                <div class="iconF"> <a href="https://github.com/GamingCampus-AdrienBourgois/week-3-sfml-game-les-x-loutres-hawaiennes"><img src="img/icon/github_icon.png" alt="Icon footer 1"></a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="bullets"></div>
+          </section>
         </div>
-      </div>
+
+        <div class="category" data-category="python">
+          <h2>Python</h2>
+          <section id="projects-web" class="projects">
+            <div class="project-card" data-url="projet">
+              <h3>Projet Web 1</h3>
+            </div>
+            <div class="project-card" data-url="projet">
+              <h3>Projet Web 2</h3>
+            </div>
+          </section>
+        </div>
+
+        <div class="category" data-category="csharp">
+          <h2>C#</h2>
+          <section id="projects-csharp" class="projects">
+            <div class="project-card" data-url="projet">
+              <h3>Projet C# 1</h3>
+            </div>
+            <div class="project-card" data-url="projet">
+              <h3>Projet C# 2</h3>
+            </div>
+            <div class="project-card" data-url="projet">
+              <h3>Projet C# 3</h3>
+            </div>
+          </section>
+        </div>
+    </section>
     </div>
     <footer>
       <div class="container">

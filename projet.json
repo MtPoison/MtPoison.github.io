@@ -1,0 +1,19 @@
+{
+    "cpp": [
+        {
+            "title": "Projet C++ 1",
+            "description": "Description du projet C++ 1.",
+            "link": "https://example.com/projet-cpp-1"
+        },
+        {
+            "title": "Projet C++ 2",
+            "description": "Description du projet C++ 2.",
+            "link": "https://example.com/projet-cpp-2"
+        },
+        {
+            "title": "Projet C++ 3",
+            "description": "Description du projet C++ 3.",
+            "link": "https://example.com/projet-cpp-3"
+        }
+    ]
+}
