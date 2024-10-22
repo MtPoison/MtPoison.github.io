@@ -2,18 +2,18 @@
     "cpp": [
         {
             "title": "Projet C++ 1",
-            "description": "Description du projet C++ 1.",
-            "link": "https://example.com/projet-cpp-1"
+            "description": "Description du projet C++ 1",
+            "link": "https://lien-vers-projet1.com"
         },
         {
             "title": "Projet C++ 2",
-            "description": "Description du projet C++ 2.",
-            "link": "https://example.com/projet-cpp-2"
+            "description": "Description du projet C++ 2",
+            "link": "https://lien-vers-projet2.com"
         },
         {
             "title": "Projet C++ 3",
-            "description": "Description du projet C++ 3.",
-            "link": "https://example.com/projet-cpp-3"
+            "description": "Description du projet C++ 3",
+            "link": "https://lien-vers-projet3.com"
         }
     ]
 }
