@@ -1,13 +1,23 @@
   body 
   {
     font-family: Arial, sans-serif;
+    background: url('/img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg');
+    background-size: cover; /* ou contain, ou une taille personnalisée */
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+  }
+  .gradient-div {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   nav 
   {
-    background-color: #333;
+    
   }
   
   nav ul 
@@ -36,80 +46,24 @@
 
   h1
   {
-    padding: 5%;
+    margin: 0;
     text-align: center;
   }
 
   h2
   {
     text-align: center;
-  }
-
-  .p_a_propos
-  {
-    color: blue;
-  }
-
-  .carousel 
-  {
-    width: 100%;
-    overflow: hidden;
+    height: 100%;
+    margin: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
-
-  .slide 
+  .titre
   {
-    width: 100%;
-    display: none;
-    margin-top: 2.5%;
+    height: 200px;
   }
-
-  .slide img 
-  {
-    width: 100%;
-  }
-
-  .slide2
-  {
-    width: 100%;
-    display: none;
-    margin-top: 10%;
-  }
-
-  .slide2 img 
-  {
-    width: 100%;
-  }
-
-  .slide.active 
-  {
-    display: block;
-  }
-
-.prev, .next 
-  {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-  }
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
-
-.active-bullet {
-  background-color: #333;
-}
-
+  
 .card {
   width: 1400px;
   height: 800px;
@@ -169,8 +123,6 @@
   color: white;
   cursor: pointer;
 }
-
-
 .icon {
   margin: 0 5px;
   width: 10%;
@@ -205,27 +157,29 @@
 }
 
 p {
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
   display: flex;
   justify-content: center;
   text-align: justify;
-}
-
-
-body {
   margin: 0;
-  padding: 0;
 }
 
+.p_a_propos{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+  color: white;
+}
+
+.cont{
+  height: 344px;
+  padding-bottom: 2%;
+}
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
-footer {
-  background-color: #333;
+footer {  
   color: #fff;
   padding: 20px 0;
 }
