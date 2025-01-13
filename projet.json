@@ -1,18 +1,21 @@
 {
     "projet": [
         {
-            "title": "Projet C++ 1",
-            "description": "Description du projet C++ 1",
+            "title": "Shader",
+            "description": "Découverte du shader graph d'unity",
+            "details" : " Ce projet consistait à concevoir trois shaders distincts en mode Unlit. Shader d’eau, Simulation des mouvements et reflets de l’eau, avec intégration d’un effet de houle pour représenter les vagues dynamiques. Shader de génération de terrain, création de paysages dynamiques à partir d'un plane. Shader de nuages, Conception de nuages volumétriques pour enrichir l’ambiance visuelle. En complément, un système de jour et nuit a été intégré pour améliorer l’immersion en modifiant les éclairages en fonction du temps. En bonus, j’ai expérimenté avec la création d’un shader de brouillard, ajoutant une dimension supplémentaire à l’atmosphère du projet.",
             "link": "https://lien-vers-projet1.com"
         },
         {
-            "title": "Projet C++ 2",
-            "description": "Description du projet C++ 2",
-            "link": "https://lien-vers-projet2.com"
+            "title": "Game Jam Tap Nation",
+            "description": "Pour cette game jam on avait comme contrainte faire un jeu d'enfance et qu'il soit jouable mobile. Nous avons repris le principe de 1,2,3 soleil.",
+            "details": "Sur ce projet, j'ai pris en charge la création du système de musique et d'éclairage. J'ai également réalisé le post-traitement de la caméra afin d'ajouter un effet d'horreur.",
+            "link": "https://46yuu.itch.io/staysoul"
         },
         {
-            "title": "Projet C++ 3",
-            "description": "Description du projet C++ 3",
+            "title": "Fou2foot",
+            "description": "Création d'un jeux de foot sur unity en coop local",
+            "details": "Pour ce projet, mes contributions ont porté sur plusieurs éléments essentiels. Déplacements des deux joueurs. Génération procédurale du terrain, conception d’un environnement dynamique généré de manière aléatoire à chaque partie. Mécanique de coup de pied, Mise en place d’une interaction permettant de frapper la balle de manière aléatoire. Effets visuels, Ajout d’un effet de traînée derrière la balle et des joueurs pour renforcer l’immersion. Animations, Création et intégration d’animations, notamment celles liées à la mise d’un but. Interface utilisateur (UI), Exploration et intégration de ma première interface utilisateur dans un jeu. ",
             "link": "https://lien-vers-projet3.com"
         }
     ]

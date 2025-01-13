@@ -1,69 +1,110 @@
-  body 
-  {
-    font-family: Arial, sans-serif;
-    background: url('/img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg');
-    background-size: cover; /* ou contain, ou une taille personnalisée */
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-  }
-  .gradient-div {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  nav 
-  {
-    
-  }
-  
-  nav ul 
-  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  nav ul li {
-    float: left;
-  }
-  
-  nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    background-color: #111;
-  }
+html,body{
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
 
-  h1
-  {
-    margin: 0;
-    text-align: center;
-  }
+section {
+  height: 100vh; /* Chaque section occupe toute la hauteur de la fenêtre */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gradient-div {
+  background-image: url('img/5297135.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Permet de positionner les enfants en colonne */
+  justify-content: center; /* Centrage vertical */
+  align-items: center; /* Centrage horizontal */
+  position: relative;
+}
 
-  h2
-  {
-    text-align: center;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .titre
-  {
-    height: 200px;
-  }
-  
+.gradient-div::after
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background-color: rgb(249, 240, 236);
+  width: 100%;
+  height: 15px;
+}
+
+.fond {
+  background-color: rgb(249, 240, 236); 
+  padding: 10px 20px;
+  margin: 10px auto; 
+  text-align: center; 
+  font-family: 'Playfair Display', serif; 
+  color: #333;
+  max-width: 80%;
+  gap: 20px; 
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imgTitre {
+  position: relative;
+  display: inline-block;
+}
+
+.imgTitre img {
+  display: block;
+  width: 100%; /* Ajuste selon tes besoins */
+  height: auto; /* Ajuste selon tes besoins */
+}
+
+.imgTitre .overlay {
+  position: absolute;
+  top: 50.25%;
+  left: 50.5%;
+  transform: translate(-50%, -50%);
+  width: 217px; /* Taille du carré */
+  height: 270.5px; /* Taille du carré */
+  background-image: url('img/QuentinLeForestier-09.jpg'); /* Chemin de l'image de fond */
+  background-size: cover; /* Pour que l'image remplisse entièrement le carré */
+  background-position: center;
+  pointer-events: none; 
+}
+
+
+
+h1
+{
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 40px;
+} 
+.titre
+{
+  height: 200px;
+}
+button {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacement entre le texte et l'image */
+}
+
+.logo {
+  width: 20px; /* Ajustez la taille de l'image selon vos besoins */
+  height: 20px;
+}
+.button-container {
+}
 .card {
   width: 1400px;
   height: 800px;
@@ -89,21 +130,19 @@
   margin-top: 10px;
 }
 
-/* Modal cachée par défaut */
 .modal {
-  display: none; /* Cachée par défaut */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent */
+  background-color: rgba(0, 0, 0, 0.8); 
   z-index: 1000;
   align-items: center;
   justify-content: center;
 }
 
-/* Contenu de la modal */
 .modal-content {
   background-color: white;
   padding: 20px;
@@ -113,7 +152,6 @@
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Bouton de fermeture */
 .close {
   position: absolute;
   top: 10px;
@@ -156,57 +194,72 @@
   margin: 5px;
 }
 
-p {
+.p_a_propos {
   display: flex;
   justify-content: center;
+  font-size: 20px;
   text-align: justify;
-  margin: 0;
+  font-family: 'Playfair Display', serif; 
 }
 
-.p_a_propos{
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: justify;
-  color: white;
+.fond_p {
+  margin-top: 5%;
+  background-color: rgb(249, 240, 236); 
+  padding: 5% 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  
 }
-
 .cont{
-  height: 344px;
-  padding-bottom: 2%;
+  padding-top: 2%;
+  background-image: url('img/freepik__upload__4873.jpeg');
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cont::after
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background-color: rgb(249, 240, 236);
+  width: 100%;
+  height: 15px;
 }
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
-footer {  
-  color: #fff;
-  padding: 20px 0;
+.button-container {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+button {
+  background-color: rgb(249, 240, 236); 
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Effet de transition pour la couleur */
 }
 
-footer p {
-  margin: 0;
-}
-
-footer nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-footer nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-footer nav ul li a {
-  color: #fff;
-  text-decoration: none;
+button:hover {
+  background-color: gray;
+  border: 2px solid rgb(249, 240, 236); ;
 }
 
 #portfolio {
@@ -214,33 +267,17 @@ footer nav ul li a {
   margin: 50px auto;
 }
 
-.filter-select {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#category-filter {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #007BFF;
-}
-
 .category {
-  margin-bottom: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.category h2 {
-  font-size: 1.5em;
-  color: #007BFF;
-  border-bottom: 2px solid #007BFF;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
 .projects {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
+  width: 1000px;
 }
 
 .project-card {
@@ -255,8 +292,37 @@ footer nav ul li a {
   margin: 10px;
 }
 
-.project-card:hover {
+.tableau:hover {
   transform: scale(1.05);
+}
+
+.tableau {
+  width: 295px;
+  height: 234px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 
+      10px 0 30px rgba(0, 0, 0, 0.6),
+      0 8px 20px rgba(0, 0, 0, 0.3), 
+      inset 0 -2px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.tableau::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6) 10px,
+      rgba(230, 230, 230, 0.7) 10px,
+      rgba(230, 230, 230, 0.7) 20px
+  );
+  opacity: 0;
+  pointer-events: none;
 }
 
 .project-card h3 {
@@ -265,43 +331,51 @@ footer nav ul li a {
   color: #333;
 }
 
-@media screen and (max-width: 768px) {
-  nav ul {
-    display: flex;
-    flex-direction: column;
-  }
+#projects{
+  height: 100vh;
+}
+.projetFond{
+  background-image: url('img/5297135.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   
-  nav ul li {
-    float: none;
-    width: 100%;
-  }
-  .carousel {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .card {
-    width: 90%;
-    max-width: none; 
-  }
-
-  .icon-zone {
-    flex-direction: column; 
-  }
-
-  .icon {
-    margin: 5px 0; 
-  }
-
-  .image-zone img {
-    width: 80px; 
-    height: 80px;
-  }
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative;
 }
 
-@media screen and (max-width: 576px) {
-  .prev, .next {
-    font-size: 12px;
-    padding: 5px;
-  }
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Autorise le wrapping */
+  gap: 20px; /* Espace entre les éléments */
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.project-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.project-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  
+}
+
+.project-link:hover {
+  text-decoration: underline;
 }

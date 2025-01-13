@@ -7,122 +7,66 @@
     <link rel="stylesheet" href="styleHome.css">
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">À propos</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    <div class="gradient-div">
-      <h1>Quentin Le Forestier</h1>
-    </div>
-    <div class="cont">
-      <div class="titre">
-        <h2>
-          A PROPOS DE MOI
-        </h2>
-        <p class="p_a_propos">
-            Passionné par le développement de jeux vidéo et la programmation, je suis un développeur polyvalent avec une solide expertise en C++ et C#. 
-            Depuis mes débuts, j'ai eu l'occasion de travailler sur divers projets, allant de la création d'interfaces utilisateur interactives à la conception de systèmes de gestion d'inventaire complexes. En plus de mes compétences techniques, je crois fermement à l'importance du travail d'équipe et de la communication. J'apprécie collaborer avec d'autres créateurs pour donner vie à des idées innovantes. 
-            Je suis constamment en quête de nouveaux défis pour élargir mes compétences et explorer de nouvelles technologies. N'hésitez pas à consulter mes projets ci-dessous pour voir le fruit de ma passion et de mon travail acharné.
-        </p>
+  <!-- Hero Section -->
+  <section id="home" class="gradient-div">
+      <div class="imgTitre">
+          <div class="overlay"></div>
+          <img src="img/rb_80998-removebg-preview.png" alt="">
       </div>
-    </div>
-    <div class="titre">
-      <h2>Actuellement</h2>
-    </div>
-      <div>
-        <p>
-          Je suis en deuxieme année de developpent informatique
-        </p>
+      <div class="fond">
+          <h1>Quentin Le Forestier</h1>
       </div>
-    </div>
-    <div>
-      <div class="titre">
-        <h2>
-          MES PROJETS
-        </h2>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="cont">
+      <div class="fond">
+          <h2>A PROPOS DE MOI</h2>
       </div>
-      <section id="portfolio">
-        <div class="filter-select">
-          <label for="category-filter">Filtrer par catégorie:</label>
-          <select id="category-filter">
-            <option value="all">Tous</option>
-            <option value="cpp">C++</option>
-            <option value="python">Python</option>
-            <option value="csharp">C#</option>
-          </select>
-        </div>
+      <div class="button-container">
+        <button type="button" id ="button" onclick="scrollToSection('projects')">
+          <span>CV</span> 
+          <img class="logo" src="img/téléchargement-removebg-preview.png" alt="Logo">
+        </button>
+    </div>
+      <div class="fond_p">
+          <p class="p_a_propos">
+            Passionné par le développement de jeux vidéo et la programmation, je suis un développeur polyvalent spécialisé en C++ et C#, avec une solide expérience dans la création de jeux et d'outils interactifs.<br><br>
 
-        <div class="category" data-category="cpp">
-          <h2>C++</h2>
-          <section id="projects-cpp" class="projects">
-              <div class="project-card" data-index="0">
-                  <h3>Projet C++ 1</h3>
-              </div>
-              <div class="project-card" data-index="1">
-                  <h3>Projet C++ 2</h3>
-              </div>
-              <div class="project-card" data-index="2">
-                  <h3>Projet C++ 3</h3>
-              </div>
-          </section>
-        </div>
+            Au fil de mes projets, j'ai acquis une expertise allant de la conception d'interfaces utilisateur intuitives à l'implémentation de systèmes complexes, tels que des gestionnaires d'inventaire et des mécanismes de gameplay. Ma passion pour l'optimisation du code et la recherche de solutions créatives me pousse à repousser sans cesse mes limites.<br><br>
+            
+            Je suis convaincu que la collaboration et la communication sont essentielles à la réussite de tout projet. Travailler en équipe avec des créateurs, des designers et d'autres développeurs me permet d'enrichir mes idées et de produire des expériences immersives et innovantes.<br><br>
+            
+            Toujours en quête de nouveaux défis, j'aspire à perfectionner mes compétences et à explorer les dernières technologies pour rester à la pointe de l'industrie du jeu vidéo.<br><br>
+            
+            
+            </p>
+      </div>
+      
+  </section>
 
-        <div class="category" data-category="python">
-          <h2>Python</h2>
-          <section id="projects-web" class="projects">
-            <div class="project-card" data-index="3">
-              <h3>Projet Web 1</h3>
-            </div>
-            <div class="project-card"data-index="4">
-              <h3>Projet Web 2</h3>
-            </div>
-          </section>
-        </div>
-
-        <div class="category" data-category="csharp">
-          <h2>C#</h2>
+  <!-- Projects Section -->
+  <section id="projects" class="projetFond">
+      <div class="fond">
+          <h2>MES PROJETS</h2>
+      </div>
+      <div class="category" data-category="csharp">
           <section id="projects-csharp" class="projects">
-            <div class="project-card" data-index="5">
-              <h3>Projet C# 1</h3>
-            </div>
-            <div class="project-card" data-index="6">
-              <h3>Projet C# 2</h3>
-            </div>
-            <div class="project-card" data-index="7">
-              <h3>Projet C# 3</h3>
-            </div>
+              <div class="tableau" style="background-image: url('img/42cbF2.png');" data-index="0"></div>
+              <div class="tableau" style="background-image: url('img/s7BsGm.png');" data-index="1"></div>
           </section>
-        </div>
-    </section>
-    </div>
+      </div>
+  </section>
 
-    <div id="project-modal" class="modal">
+  <!-- Modal -->
+  <div id="project-modal" class="modal">
       <div class="modal-content">
-        <span class="close">&times;</span>
-        <div id="modal-body">
-          <!-- Le contenu du JSON sera inséré ici -->
-        </div>
+          <span class="close">&times;</span>
+          <div id="modal-body">
+          </div>
       </div>
-    </div>
-
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <p>© 2024 Mon Site</p>
-          <nav>
-            <ul>
-              <!-- <li><a href="https://www.linkedin.com/in/quentin-le-forestier-aa3722253/"><img src="img/icon/lk_icon.png" alt="icon linkedin"></a></li>
-              <li><a href="https://github.com/MtPoison"><img src="img/icon/github_icon.png" alt="icon github"></a></li>
-              <li><a href="https://p0izon.itch.io/"><img src="img/icon/itch-io_icon.png" alt="icon itch io"></a></li> -->
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </footer>
-    <script src="scriptHome.js"></script>
+  </div>
+  <script src="scriptHome.js"></script>
+  <script src="scroll.js"></script>
 </body>
 </html>
