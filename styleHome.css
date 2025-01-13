@@ -5,7 +5,6 @@ html,body{
 }
 
 section {
-  height: 100vh; /* Chaque section occupe toute la hauteur de la fenêtre */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,6 +119,10 @@ button {
   align-items: center;
 }
 
+#text{
+  position: absolute;
+  top: 0;
+}
 
 .card:hover {
   transform: scale(1.01);
@@ -206,7 +209,7 @@ button {
 }
 
 .fond_p {
-  margin-top: 5%;
+  margin-top: 1%;
   background-color: rgb(249, 240, 236); 
   padding: 5% 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -270,12 +273,6 @@ button:hover {
   margin: 50px auto;
 }
 
-.category {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .projects {
   display: flex;
   justify-content: space-between;
