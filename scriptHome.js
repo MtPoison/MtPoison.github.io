@@ -15,11 +15,11 @@ fetch('projet.json')
 
         // Remplir la modal avec les données du JSON
         modalBody.innerHTML = `
-  <h3 class="project-title">${project.title}</h3>
-  <p class="project-description">${project.description}</p>
-  <p class="project-details">${project.details}</p>
-  <p><a class="project-link" href=${project.link}>Essayer</a></p>
-`;
+        <h3 class="project-title">${project.title}</h3>
+        <p class="project-description">${project.description}</p>
+        <p class="project-details">${project.details}</p>
+        <p><a class="project-link" href=${project.link}>Essayer</a></p>
+      `;
 
 
 
@@ -65,4 +65,36 @@ fetch('projet.json')
         document.body.removeChild(a);  // Supprimer le lien temporaire
       })
       .catch(error => console.error('Error downloading document:', error));
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const openModalButton = document.getElementById("openModal");
+    const closeModalButton = document.querySelector(".close");
+    const modal = document.getElementById("project-modal");
+    const modalBody = document.getElementById('modal-body');
+
+        // Remplir la modal avec les données du JSON
+        modalBody.innerHTML = `
+        <h3 class="project-title"></h3>
+        <p class="project-description"></p>
+        <p class="project-details"></p>
+        <p><a class="project-link">Essayer</a></p>
+      `;
+  
+    // Ouvrir la modale
+    openModalButton.addEventListener("click", () => {
+      modal.style.display = "flex";
+    });
+  
+    // Fermer la modale
+    closeModalButton.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+  
+    // Fermer la modale en cliquant à l'extérieur
+    window.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
   });
