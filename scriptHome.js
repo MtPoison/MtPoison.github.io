@@ -75,10 +75,10 @@ fetch('projet.json')
 
         // Remplir la modal avec les données du JSON
         modalBody.innerHTML = `
-        <h3 class="project-title"></h3>
-        <p class="project-description"></p>
-        <p class="project-details"></p>
-        <p><a class="project-link">Essayer</a></p>
+        <p > <a class="coordone" href="mailto:quentinleforestier0@gmail.com?subject=Sujet&body=Contenu%20du%20message">quentinleforestier0@gmail.com</a></p>
+        <p class="coordone">0783916612</p>
+        <p> <a class="coordone" href ="https://www.linkedin.com/in/quentin-le-forestier-aa3722253/">Linkedin</a></p>
+        <p><a class="coordone" href="https://itch.io/profile/p0izon">itch.io</a></p>
       `;
   
     // Ouvrir la modale

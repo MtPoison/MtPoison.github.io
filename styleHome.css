@@ -252,6 +252,14 @@ button {
   margin-top: 20px;
 }
 
+.coordone{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
 button {
   background-color: rgb(249, 240, 236); 
   color: black;
