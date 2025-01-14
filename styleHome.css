@@ -433,3 +433,54 @@ a{
   }
 }
 
+@media (max-width: 335px) {
+  .p_a_propos {
+    font-size: 13px; /* Taille de police encore plus petite pour les écrans très étroits */
+  }
+  .fond_p {
+    padding: 2% 15px; /* Réduction supplémentaire du padding pour ces écrans */
+    margin: 5% 2%;
+  }
+  .category {
+    margin-top: 80px; /* Ajustement du margin pour un espacement plus adapté */
+  }
+}
+
+@media (max-width: 335px) {
+  .p_a_propos {
+    font-size: 12px; /* Taille de police réduite pour les très petits écrans */
+  }
+  .fond_p {
+    padding: 2% 10px; /* Padding adapté aux écrans très étroits */
+    margin: 5% 2%; /* Réduction des marges pour optimiser l'espace */
+  }
+  .category {
+    margin-top: 60px; /* Ajustement du margin-top pour plus de cohérence */
+  }
+}
+
+@media (max-width: 280px) {
+  .p_a_propos {
+    font-size: 10px; /* Taille minimale pour rester lisible sur les écrans ultra-petits */
+  }
+  .fond_p {
+    padding: 3% 5px; /* Padding minimal pour les très petits appareils */
+    margin: 5% 1%; /* Réduction maximale des marges */
+  }
+  .category {
+    margin-top: 40px; /* Espacement réduit pour éviter le débordement */
+  }
+}
+
+@media (max-width: 200px) {
+  .p_a_propos {
+    font-size: 8px; /* Taille minimale pour écrans très étroits */
+  }
+  .fond_p {
+    padding: 5% 2px; /* Presque aucun padding pour gagner de l'espace */
+    margin: 2% 0%; /* Marges supprimées pour éviter tout débordement */
+  }
+  .category {
+    margin-top: 20px; /* Réduction pour s'adapter aux très petits écrans */
+  }
+}
