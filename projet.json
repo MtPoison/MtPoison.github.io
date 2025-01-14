@@ -2,20 +2,20 @@
     "projet": [
         {
             "title": "Shader",
-            "description": "Découverte du shader graph d'unity",
-            "details" : " Ce projet consistait à concevoir trois shaders distincts en mode Unlit. Shader d’eau, Simulation des mouvements et reflets de l’eau, avec intégration d’un effet de houle pour représenter les vagues dynamiques. Shader de génération de terrain, création de paysages dynamiques à partir d'un plane. Shader de nuages, Conception de nuages volumétriques pour enrichir l’ambiance visuelle. En complément, un système de jour et nuit a été intégré pour améliorer l’immersion en modifiant les éclairages en fonction du temps. En bonus, j’ai expérimenté avec la création d’un shader de brouillard, ajoutant une dimension supplémentaire à l’atmosphère du projet.",
-            "link": "https://lien-vers-projet1.com"
+            "description": "Discovery of Unity's Shader Graph",
+            "details" : "This project involved designing three distinct shaders in Unlit mode. Water Shader: Simulation of water movement and reflections, with the integration of a wave effect to represent dynamic waves. Terrain Generation Shader: Creation of dynamic landscapes from a plane. Cloud Shader: Design of volumetric clouds to enhance the visual atmosphere. Additionally, a day-night cycle system was integrated to improve immersion by adjusting the lighting based on time. As a bonus, I experimented with creating a fog shader, adding an extra layer to the project's atmosphere.",
+            "link": "https://p0izon.itch.io/shader-of-world"
         },
         {
             "title": "Game Jam Tap Nation",
-            "description": "Pour cette game jam on avait comme contrainte faire un jeu d'enfance et qu'il soit jouable mobile. Nous avons repris le principe de 1,2,3 soleil.",
-            "details": "Sur ce projet, j'ai pris en charge la création du système de musique et d'éclairage. J'ai également réalisé le post-traitement de la caméra afin d'ajouter un effet d'horreur.",
+            "description": "For this game jam, the constraint was to create a childhood game that would be playable on mobile. We took the concept of 1, 2, 3, soleil (also known as Red Light, Green Light).",
+            "details": "In this project, I was responsible for creating the music and lighting system. I also handled the camera post-processing to add a horror effect.",
             "link": "https://46yuu.itch.io/staysoul"
         },
         {
             "title": "Fou2foot",
-            "description": "Création d'un jeux de foot sur unity en coop local",
-            "details": "Pour ce projet, mes contributions ont porté sur plusieurs éléments essentiels. Déplacements des deux joueurs. Génération procédurale du terrain, conception d’un environnement dynamique généré de manière aléatoire à chaque partie. Mécanique de coup de pied, Mise en place d’une interaction permettant de frapper la balle de manière aléatoire. Effets visuels, Ajout d’un effet de traînée derrière la balle et des joueurs pour renforcer l’immersion. Animations, Création et intégration d’animations, notamment celles liées à la mise d’un but. Interface utilisateur (UI), Exploration et intégration de ma première interface utilisateur dans un jeu. ",
+            "description": "Creation of a football game in Unity with local co-op.",
+            "details": "For this project, my contributions focused on several key elements. Player movement: Implementing the controls for both players. Procedural terrain generation: Designing a dynamic environment that is randomly generated each match. Kicking mechanics: Setting up an interaction to kick the ball randomly. Visual effects: Adding a trail effect behind the ball and players to enhance immersion. Animations: Creating and integrating animations, particularly for scoring a goal. User Interface (UI): Exploring and integrating my first user interface in a game. ",
             "link": "https://lien-vers-projet3.com"
         }
     ]
