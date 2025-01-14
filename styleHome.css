@@ -459,6 +459,19 @@ a{
   }
 }
 
+@media (max-width: 330px) {
+  .p_a_propos {
+    font-size: 11px; /* Taille de police encore plus petite pour les petits écrans */
+  }
+  .fond_p {
+    padding: 3% 8px; /* Réduction du padding pour éviter l'encombrement */
+    margin: 5% 2%; /* Marges réduites pour optimiser l'espace */
+  }
+  .category {
+    margin-top: 50px; /* Réduction du margin-top pour éviter les débordements */
+  }
+}
+
 @media (max-width: 280px) {
   .p_a_propos {
     font-size: 10px; /* Taille minimale pour rester lisible sur les écrans ultra-petits */
