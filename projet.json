@@ -8,7 +8,7 @@
         },
         {
             "title": "GameJams Tap Nation",
-            "description": "For this game jam, the constraint was to create a childhood game that would be playable on mobile. We took the concept of 1, 2, 3, soleil (also known as Red Light, Green Light).",
+            "description": "For this game jam, the constraint was to create a childhood game that would be playable on mobile. We took the concept of Red Light, Green Light.",
             "details": "In the project I focused on designing and implementing various systems to create a compelling horror game atmosphere. Music and Lighting System: I developed a dynami, system to synchronize eerie soundscapes with responsive lighting, enhancing the tension and mood.Camera Post-Processing, I implemented advanced post-processing effects, including grain, color grading, and distortion, to emphasize the unsettling horror aesthetic. Immersive Enhancements, As an additional challenge, I experimented with environmental effects like fog and shadow animations to further immerse players in the eerie setting.",
             "link": "https://46yuu.itch.io/staysoul"
         },
