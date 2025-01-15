@@ -3,19 +3,19 @@
         {
             "title": "Shader",
             "description": "Discovery of Unity's Shader Graph",
-            "details" : "This project involved designing three distinct shaders in Unlit mode. Water Shader: Simulation of water movement and reflections, with the integration of a wave effect to represent dynamic waves. Terrain Generation Shader: Creation of dynamic landscapes from a plane. Cloud Shader: Design of volumetric clouds to enhance the visual atmosphere. Additionally, a day-night cycle system was integrated to improve immersion by adjusting the lighting based on time. As a bonus, I experimented with creating a fog shader, adding an extra layer to the project's atmosphere.",
+            "details" : "This project involved designing three distinct shaders in Unlit mode. Water Shader, Simulation of water movement and reflections, with the integration of a wave effect to represent dynamic waves. Terrain Generation Shader, Creation of dynamic landscapes from a plane. Cloud Shader, Design of volumetric clouds to enhance the visual atmosphere. Additionally, a day-night cycle system was integrated to improve immersion by adjusting the lighting based on time. As a bonus, I experimented with creating a fog shader, adding an extra layer to the project's atmosphere.",
             "link": "https://p0izon.itch.io/shader-of-world"
         },
         {
             "title": "Game Jam Tap Nation",
             "description": "For this game jam, the constraint was to create a childhood game that would be playable on mobile. We took the concept of 1, 2, 3, soleil (also known as Red Light, Green Light).",
-            "details": "In this project, I was responsible for creating the music and lighting system. I also handled the camera post-processing to add a horror effect.",
+            "details": "In the project I focused on designing and implementing various systems to create a compelling horror game atmosphere. Music and Lighting System: I developed a dynami, system to synchronize eerie soundscapes with responsive lighting, enhancing the tension and mood.Camera Post-Processing, I implemented advanced post-processing effects, including grain, color grading, and distortion, to emphasize the unsettling horror aesthetic. Immersive Enhancements, As an additional challenge, I experimented with environmental effects like fog and shadow animations to further immerse players in the eerie setting.",
             "link": "https://46yuu.itch.io/staysoul"
         },
         {
             "title": "Fou2foot",
             "description": "Creation of a football game in Unity with local co-op.",
-            "details": "For this project, my contributions focused on several key elements. Player movement: Implementing the controls for both players. Procedural terrain generation: Designing a dynamic environment that is randomly generated each match. Kicking mechanics: Setting up an interaction to kick the ball randomly. Visual effects: Adding a trail effect behind the ball and players to enhance immersion. Animations: Creating and integrating animations, particularly for scoring a goal. User Interface (UI): Exploring and integrating my first user interface in a game. ",
+            "details": "For this project, my contributions focused on several key elements. Player movement, Implementing the controls for both players. Procedural terrain generation, Designing a dynamic environment that is randomly generated each match. Kicking mechanics Setting up an interaction to kick the ball randomly. Visual effects Adding a trail effect behind the ball and players to enhance immersion. Animations: Creating and integrating animations, particularly for scoring a goal. User Interface (UI): Exploring and integrating my first user interface in a game. ",
             "link": "https://lien-vers-projet3.com"
         }
     ]

@@ -18,7 +18,7 @@ fetch('projet.json')
         <h3 class="project-title">${project.title}</h3>
         <p class="project-description">${project.description}</p>
         <p class="project-details">${project.details}</p>
-        <p><a class="project-link" href=${project.link}>Essayer</a></p>
+        <p><a class="project-link" href=${project.link}>Try</a></p>
       `;
 
 
