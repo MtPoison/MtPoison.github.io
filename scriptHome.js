@@ -10,8 +10,8 @@ fetch('projet.json')
 
       // Ajouter un événement de clic sur la carte
       card.addEventListener('click', () => {
-        const modal = document.getElementById('project-modal');
-        const modalBody = document.getElementById('modal-body');
+        const modal = document.getElementById('modal');
+        const modalBody = document.getElementById('body');
 
         // Remplir la modal avec les données du JSON
         modalBody.innerHTML = `
@@ -26,19 +26,19 @@ fetch('projet.json')
         // Afficher la modal
         modal.style.display = 'flex';
       });
-    });
+    });S
 
     
 
     // Bouton de fermeture
     document.querySelector('.close').addEventListener('click', () => {
-      const modal = document.getElementById('project-modal');
+      const modal = document.getElementById('modal');
       modal.style.display = 'none';
     });
 
     // Fermer la modal en cliquant en dehors du contenu
     window.addEventListener('click', (event) => {
-      const modal = document.getElementById('project-modal');
+      const modal = document.getElementById('modal');
       if (event.target === modal) {
         modal.style.display = 'none';
       }
