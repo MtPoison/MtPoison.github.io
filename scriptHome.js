@@ -10,35 +10,35 @@ fetch('projet.json')
 
       // Ajouter un événement de clic sur la carte
       card.addEventListener('click', () => {
-        const modal = document.getElementById('modal');
-        const modalBody = document.getElementById('body');
+        const modal = document.getElementById('project-modal');
+        const modalBody = document.getElementById('modal-body');
 
         // Remplir la modal avec les données du JSON
         modalBody.innerHTML = `
         <h3 class="project-title">${project.title}</h3>
         <p class="project-description">${project.description}</p>
         <p class="project-details">${project.details}</p>
-        <p><a class="project-link" href=${project.link}>Try</a></p>
-      `;
+        <p><a class="project-link" href=${project.link}>Try</a></p>`
+      ;
 
 
 
         // Afficher la modal
         modal.style.display = 'flex';
       });
-    });S
+    });
 
     
 
     // Bouton de fermeture
     document.querySelector('.close').addEventListener('click', () => {
-      const modal = document.getElementById('modal');
+      const modal = document.getElementById('project-modal');
       modal.style.display = 'none';
     });
 
     // Fermer la modal en cliquant en dehors du contenu
     window.addEventListener('click', (event) => {
-      const modal = document.getElementById('modal');
+      const modal = document.getElementById('project-modal');
       if (event.target === modal) {
         modal.style.display = 'none';
       }
@@ -70,8 +70,8 @@ fetch('projet.json')
   document.addEventListener("DOMContentLoaded", () => {
     const openModalButton = document.getElementById("openModal");
     const closeModalButton = document.querySelector(".close");
-    const modal = document.getElementById("project-modal");
-    const modalBody = document.getElementById('modal-body');
+    const modal = document.getElementById("modal");
+    const modalBody = document.getElementById('body');
 
         // Remplir la modal avec les données du JSON
         modalBody.innerHTML = `
