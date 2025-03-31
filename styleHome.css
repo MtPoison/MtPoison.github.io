@@ -372,6 +372,11 @@ button:hover {
   gap: 20px; /* Espace entre les éléments */
   padding: 20px;
 }
+.rend2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
 .project-title {
   font-size: 24px;
@@ -403,6 +408,9 @@ a{
   .p_a_propos {
     font-size: 17px; /* Taille de police légèrement réduite pour les écrans plus petits */
   }
+  .rend2{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
@@ -427,7 +435,6 @@ a{
     padding: 1% 20px; /* Réduire encore le padding pour les petits écrans */
     margin: 5% 1%;
   }
-
   .category{
     margin-top: 100px;
   }
