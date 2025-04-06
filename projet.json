@@ -28,13 +28,13 @@
             "title": "UI",
             "description": "Create a UI in Unity.",
             "details": "In this project, I discovered how to use UI in Unity. I implemented a Raycast with a highlight shader to emphasize the object being pointed at. I also designed a dynamic user interface that adapts based on the player's view direction, a system for displaying and adding text, and an inventory where objects can be stored and retrieved. Lastly, I created a magical inventory that, when opened, randomly generates shelves and objects. ",
-            "link": "https://p0izon.itch.io/fou2foot"
+            "link": "https://p0izon.itch.io/uitest"
         },
         {
             "title": "Fete Foraine",
             "description": "Discovery Blue Print Unreal.",
             "details": "In this project, I discovered the use of Blueprints and developed several interactive attractions. I designed a knock-down game where the player has four attempts to knock over all the cans, a bumper car system where they must remove all the cars as quickly as possible before exiting, and a small roller coaster to enhance the experience. I also used a NavMesh to animate NPCs that react to the player’s presence by greeting them. Among them, a monster lurks and, if the player gets too close, it starts chasing and attacking them.",
-            "link": "https://p0izon.itch.io/fou2foot"
+            "link": "https://p0izon.itch.io/fete-foraine"
         }
     ]
 }
