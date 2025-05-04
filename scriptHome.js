@@ -48,7 +48,7 @@ fetch('projet.json')
 
 
   document.getElementById('button').addEventListener('click', function() {
-    fetch('Le_Forestier_EN.pdf')  // Remplacez cette URL par votre endpoint API
+    fetch('Le_Forestier_Quentin.pdf')  // Remplacez cette URL par votre endpoint API
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');

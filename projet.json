@@ -3,38 +3,44 @@
         {
             "title": "Shader",
             "description": "Discovery of Unity's Shader Graph",
-            "details" : "This project involved designing three distinct shaders in Unlit mode. Water Shader, Simulation of water movement and reflections, with the integration of a wave effect to represent dynamic waves. Terrain Generation Shader, Creation of dynamic landscapes from a plane. Cloud Shader, Design of volumetric clouds to enhance the visual atmosphere. Additionally, a day-night cycle system was integrated to improve immersion by adjusting the lighting based on time. As a bonus, I experimented with creating a fog shader, adding an extra layer to the project's atmosphere.",
+            "details" : "This project involved designing three distinct shaders in Unlit mode.\nWater Shader: Simulation of water movement and reflections, with the integration of a wave effect to represent dynamic waves.\nTerrain Generation Shader: Creation of dynamic landscapes from a plane.\nCloud Shader: Design of volumetric clouds to enhance the visual atmosphere.\nAdditionally, a day-night cycle system was integrated to improve immersion by adjusting the lighting based on time.\nAs a bonus, I experimented with creating a fog shader, adding an extra layer to the project's atmosphere.",
             "link": "https://p0izon.itch.io/shader-of-world"
         },
         {
             "title": "GameJams Tap Nation",
             "description": "For this game jam, the constraint was to create a childhood game that would be playable on mobile. We took the concept of Red Light, Green Light.",
-            "details": "In the project I focused on designing and implementing various systems to create a compelling horror game atmosphere. Music and Lighting System: I developed a dynami, system to synchronize eerie soundscapes with responsive lighting, enhancing the tension and mood.Camera Post-Processing, I implemented advanced post-processing effects, including grain, color grading, and distortion, to emphasize the unsettling horror aesthetic. Immersive Enhancements, As an additional challenge, I experimented with environmental effects like fog and shadow animations to further immerse players in the eerie setting.",
+            "details": "In the project I focused on designing and implementing various systems to create a compelling horror game atmosphere.\nMusic and Lighting System: I developed a dynamic system to synchronize eerie soundscapes with responsive lighting, enhancing the tension and mood.\nCamera Post-Processing: I implemented advanced post-processing effects, including grain, color grading, and distortion, to emphasize the unsettling horror aesthetic.\nImmersive Enhancements: As an additional challenge, I experimented with environmental effects like fog and shadow animations to further immerse players in the eerie setting.",
             "link": "https://46yuu.itch.io/staysoul"
         },
         {
             "title": "Fou2foot",
             "description": "Creation of a football game in Unity with local co-op.",
-            "details": "For this project, my contributions focused on several key elements. Player movement, Implementing the controls for both players. Procedural terrain generation, Designing a dynamic environment that is randomly generated each match. Kicking mechanics Setting up an interaction to kick the ball randomly. Visual effects Adding a trail effect behind the ball and players to enhance immersion. Animations: Creating and integrating animations, particularly for scoring a goal. User Interface (UI): Exploring and integrating my first user interface in a game. ",
+            "details": "For this project, my contributions focused on several key elements.\nPlayer movement: Implementing the controls for both players.\nProcedural terrain generation: Designing a dynamic environment that is randomly generated each match.\nKicking mechanics: Setting up an interaction to kick the ball randomly.\nVisual effects: Adding a trail effect behind the ball and players to enhance immersion.\nAnimations: Creating and integrating animations, particularly for scoring a goal.\nUser Interface (UI): Exploring and integrating my first user interface in a game.",
             "link": "https://p0izon.itch.io/fou2foot"
         },
         {
             "title": "Racing",
             "description": "Create a video with Unreal in CPP.",
-            "details": "On this project, I had to learn how a car works in order to adapt the drifting mechanics as accurately as possible. I was responsible for creating the checkpoints and the dynamic map system. ",
+            "details": "On this project, I had to learn how a car works in order to adapt the drifting mechanics as accurately as possible.\nI was responsible for creating the checkpoints and the dynamic map system.",
             "link": "https://p0izon.itch.io/fou2foot"
         },
         {
             "title": "UI",
             "description": "Create a UI in Unity.",
-            "details": "In this project, I discovered how to use UI in Unity. I implemented a Raycast with a highlight shader to emphasize the object being pointed at. I also designed a dynamic user interface that adapts based on the player's view direction, a system for displaying and adding text, and an inventory where objects can be stored and retrieved. Lastly, I created a magical inventory that, when opened, randomly generates shelves and objects. ",
+            "details": "In this project, I discovered how to use UI in Unity.\nI implemented a Raycast with a highlight shader to emphasize the object being pointed at.\nI also designed a dynamic user interface that adapts based on the player's view direction, a system for displaying and adding text, and an inventory where objects can be stored and retrieved.\nLastly, I created a magical inventory that, when opened, randomly generates shelves and objects.",
             "link": "https://p0izon.itch.io/uitest"
         },
         {
             "title": "Fete Foraine",
             "description": "Discovery Blue Print Unreal.",
-            "details": "In this project, I discovered the use of Blueprints and developed several interactive attractions. I designed a knock-down game where the player has four attempts to knock over all the cans, a bumper car system where they must remove all the cars as quickly as possible before exiting, and a small roller coaster to enhance the experience. I also used a NavMesh to animate NPCs that react to the player’s presence by greeting them. Among them, a monster lurks and, if the player gets too close, it starts chasing and attacking them.",
+            "details": "In this project, I discovered the use of Blueprints and developed several interactive attractions.\nI designed a knock-down game where the player has four attempts to knock over all the cans, a bumper car system where they must remove all the cars as quickly as possible before exiting, and a small roller coaster to enhance the experience.\nI also used a NavMesh to animate NPCs that react to the player is presence by greeting them.\nAmong them, a monster lurks and, if the player gets too close, it starts chasing and attacking them.",
             "link": "https://p0izon.itch.io/fete-foraine"
+        },
+        {
+            "title": "Depth of hue",
+            "description": "Interdisciplinary project with the Business and Art schools",
+            "details": "In this project, I was responsible for implementing the game is data saving system, which allows saving and loading either all categories from the JSON file or a specific one, with safeguards to prevent errors if the save is empty.\nI developed a complete inventory system that supports adding and removing items, using a ScriptableObject to define which items can be stored—some in multiple quantities depending on their type.\nI also designed a UI pop-up that displays inventory items along with descriptive text, anticipating future updates.\nAdditionally, I created the \"Pairs\" and \"Pillars\" game modes, imported all associated textures, developed a bubble shader, and implemented a camera zoom system to enhance gameplay.\nI also ensured that the game settings are fully responsive across different resolutions and integrated all necessary assets into the settings menu.",
+            "link": "https://arthur-bru.itch.io/depths-of-hue"
         }
     ]
 }
