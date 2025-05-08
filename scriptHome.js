@@ -69,7 +69,7 @@ fetch('projet.json')
 
   document.addEventListener("DOMContentLoaded", () => {
     const openModalButton = document.getElementById("openModal");
-    const closeModalButton = document.querySelector(".close");
+    const closeModalButton = document.querySelector(".closeModal");
     const modal = document.getElementById("modal");
     const modalBody = document.getElementById('body');
 
